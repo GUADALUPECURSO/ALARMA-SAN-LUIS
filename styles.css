@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1600px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+         
+    background: url('images/fondo\ con\ logo.png') no-repeat center center;
+    background-size: 50%; /* Ajusta el tamaño de la imagen al 80% del tamaño del contenedor */
+    color: #3a3737;
+    padding: 1em ;
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea verticalmente al centro */
+    align-items: center; /* Alinea horizontalmente al centro */
+    text-align: center;
+    padding: 0; /* Se ajusta el padding solo si es necesario */
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 0 1em; /* Padding horizontal para evitar que el contenido se pegue a los bordes */
+}
+.hero-content h1 {
+   
+    margin-bottom: 2.5em; /* Espacio debajo del título */
+}
+.hero-content h2 {
+    margin-top: 7.5em; /* Espacio encima
+    margin-bottom: 4em; /* Aumenta el espacio debajo del párrafo */ 
+    font-size:24.5px;
+}      
+.hero-content p {
+    margin-bottom: 2em; /* Aumenta el espacio debajo del párrafo */
+    font: size 1px;
+} 
+.hero-content .btn-primary {
+    margin-top: 4.5em; /* Espacio encima del botón */
+}
+.btn-primary {
+    background: #d29a19;
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .services, .contact {
+    padding: 2em 0;
+}
+
+.services {
+    background: #f9f9f9;
+}
+
+.service-item {
+    margin-bottom: 1.5em;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos para el nuevo apartado del servicio ACUDA */
+.acuda-service {
+    background: #e9f5ff;
+    border-left: 5px solid #bc870c;
+    padding: 1.5em;
+    margin: 1em 0;
+    border-radius: 8px;
+}
+
+.acuda-service h3 {
+    color: #bc870c;
+    font-size: x-large;
+}
+
+.acuda-service ul {
+    list-style: disc;
+    margin: 1em 0;
+    padding-left: 1.5em;
+}
+
+.acuda-service ul ul {
+    list-style: circle;
+}
+
+.acuda-service p {
+    font-weight: bold;
+}
+.contact-info {
+    margin-top: 2em;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #bc870c;
+}
+
+.contact-info p {
+    margin: 0.5em 0;
+}
+/* Estilo para el logo */
+.logo {
+    height: 100px; /* Ajusta el tamaño según tu preferencia */
+    vertical-align: middle; /* Alinea verticalmente si es necesario */
+    margin-right: 15px; /* Espacio entre el logo y el título */
+}
+
+/* Estilo del header para asegurar que el logo y el título se alineen correctamente */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
